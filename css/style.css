@@ -1,0 +1,75 @@
+/* general settings */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 360px;
+  height: 640px;
+  background-color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+/* status bar settings */
+.status-bar {
+  background-color: #5D3186;
+}
+
+
+/* toolbar settings */
+.toolbar {
+  background-color: #9B51E0;
+  box-shadow: 0px 2px 4px 2px #777;
+}
+
+/*.favorite {
+  border: 2px solid blue;
+}*/
+
+.line{
+  width: 60%;
+  padding: 5% 0 4% 0;
+  border: 2px solid orange;
+  display: inline-block;
+}
+
+.time {
+  text-align: right;
+  width: 22%;
+  padding: 5% 3% 5% 0;
+  display: inline-block;
+  float: right;
+  border: 2px solid red;
+}
+
+h1 {
+  color: #fff;
+  padding: 5% 0 5% 20%;
+  font-size: 1.7em;
+}
+
+h2 {
+  color: #2a2a2a;
+  font-size: 1.5em;
+}
+
+h3 {
+  color: #a8a8a8;
+  font-weight: lighter;
+  padding: 1% 0 0 0;
+
+}
+
+h4 {
+  color: #fff;
+  text-align: right;
+  padding: 1%;
+  /*border: 2px solid yellow;*/
+}
