@@ -22,33 +22,60 @@ body {
   background-color: #5D3186;
 }
 
+.status-bar-icons {
+  display:inline-block;
+  margin-left: 73%;
+}
+
+.status-content {
+  width: 16%;
+  float: right;
+}
 
 /* toolbar settings */
 .toolbar {
   background-color: #9B51E0;
   box-shadow: 0px 2px 4px 2px #777;
+  margin-bottom: 2%;
 }
 
-/*.favorite {
-  border: 2px solid blue;
-}*/
+/* nav bar settings */
+.navbar {
+  background-color: #000000;
+  position: fixed;
+  width: 360px;
+  height: 50px;
+  bottom: 0px;
+}
 
+.navbar-icons {
+  padding: 4.5%;
+}
+
+/* bus list settings */
 .line{
   width: 60%;
   padding: 5% 0 4% 0;
-  border: 2px solid orange;
   display: inline-block;
 }
 
 .time {
   text-align: right;
   width: 22%;
-  padding: 5% 3% 5% 0;
+  padding: 7% 4% 5% 0;
   display: inline-block;
   float: right;
-  border: 2px solid red;
 }
 
+.favorite {
+  padding: 5%;
+  display: inline;
+  float:left;
+}
+
+.bus:hover { background-color: #ccc}
+
+/* text settings */
 h1 {
   color: #fff;
   padding: 5% 0 5% 20%;
@@ -71,5 +98,4 @@ h4 {
   color: #fff;
   text-align: right;
   padding: 1%;
-  /*border: 2px solid yellow;*/
 }
