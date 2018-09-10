@@ -124,11 +124,18 @@ h2 {
   font-size: 1.5em;
 }
 
+.favorited h2 {
+  color: #9B51E0;
+}
+
 h3 {
-  color: #a8a8a8;
+  color: #919191;
   font-weight: lighter;
   padding: 1% 0 0 0;
+}
 
+.favorited h3 {
+  color: #9B51E0;
 }
 
 h4 {
