@@ -24,12 +24,13 @@ body {
 
 .status-bar-icons {
   display:inline-block;
-  margin-left: 73%;
+  margin: 1% 0 1% 73%;
 }
 
 .status-content {
-  width: 16%;
+  width: 15%;
   float: right;
+  margin: 1%;
 }
 
 /* toolbar settings */
@@ -63,6 +64,29 @@ body {
 
 .recents {
   padding: 0 13%;
+}
+
+/* banner settings */
+.banner {
+  height: 100px;
+  border-bottom: 1px solid #ddd;
+  font-size: 1.2em;
+}
+
+.alert {
+  padding-top: 8px;
+  margin: 16px 16px 5px 16px;
+}
+
+.alert-actions h5 {
+  color: #9B51E0;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px;
+  margin-right: 8px;
+  display: inline;
+  float: right;
 }
 
 /* bus list settings */
@@ -111,4 +135,9 @@ h4 {
   color: #fff;
   text-align: right;
   padding: 1%;
+}
+
+h5 {
+  color: #2a2a2a;
+  line-height: 1.5em;
 }
