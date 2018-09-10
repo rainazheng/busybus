@@ -36,7 +36,7 @@ body {
 .toolbar {
   background-color: #9B51E0;
   box-shadow: 0px 2px 4px 2px #777;
-  margin-bottom: 2%;
+  margin-bottom: 1%;
 }
 
 /* nav bar settings */
@@ -49,7 +49,20 @@ body {
 }
 
 .navbar-icons {
-  padding: 4.5%;
+  padding: 4.5% 0;
+}
+
+.back {
+  margin-left: 3%;
+  padding: 0 13%;
+}
+
+.home {
+  padding: 0 13%;
+}
+
+.recents {
+  padding: 0 13%;
 }
 
 /* bus list settings */
